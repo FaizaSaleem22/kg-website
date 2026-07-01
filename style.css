@@ -24,6 +24,7 @@ h2 {
     font-size: 60px;
     letter-spacing: 5px;
     text-transform: capitalize;
+    
 }
 .nav {
     font-size: 30px;
@@ -51,6 +52,7 @@ a {
     text-align: left;
     background-color: #F7AD56;
     padding: 20px;
+    
     font-size: 20px;
     color: #2592C9;
 }
@@ -72,6 +74,12 @@ a {
     text-transform: capitalize;
     color: #F7AD56;
     font-weight: 700;
+    border: 3px #2592C9;
+    border-style: solid;
+    border-right: #2592C9;
+    border-top: #2592C9;
+    padding: 3px;
+   
 }
 .proud {
     text-align: center;
@@ -79,9 +87,9 @@ a {
     background-color: #F7AD56;
     color: #2592C9;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-bottom: 60px;
-    padding-top: 60px;
+    padding-top: 20px;
     font-weight: 700;
+    
 }
 .lets {
     display: inline-flex;
@@ -115,5 +123,27 @@ a {
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 0%;
+}
+.left {
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #F7AD56;
+    font-weight: 700;
+    border: 3px #2592C9;
+    border-style: solid;
+    border-left: #2592C9;
+    border-top: #2592C9;
+    padding: 3px;
 
+}
+.start {
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #F7AD56;
+    font-weight: 700;
+}
+tr > td {
+     border: 3px solid #2592C9;
+     padding: 10px;
+     border-radius: 5% ;
 }
